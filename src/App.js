@@ -11,12 +11,14 @@ function App() {
   return (
     <>
       <Navbar  />
-      <main className="max-w-screen flex flex-col justify-center ">
-        <Hero />
-        <Portfolio />
-        <Contact />
-        <About />
-      </main>
+
+        <main className="max-w-screen flex flex-col justify-center ">
+          <Hero />
+          <About />
+          <Portfolio />
+          <Contact />
+        </main>
+
       <Footer />
     </>
   );
