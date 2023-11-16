@@ -1,6 +1,6 @@
 import React from 'react'
-import AText from './subcomponents/AText'
-import AImg from './subcomponents/AImg'
+import AText from './subcomponents/about/AText'
+import AImg from './subcomponents/about/AImg'
 
 import photo from '../assets/img/img1.png'
 

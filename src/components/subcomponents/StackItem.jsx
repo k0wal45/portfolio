@@ -1,8 +1,8 @@
 const StackItem = ({image, altT}) => {
   return (
-    <div className='grid place-items-center p-4 rounded-full bg-white shadow-lg'>
+    <li className='grid place-items-center p-4 rounded-buble bg-white shadow-lg png-shadow'>
       <img src={image} alt={altT} className='w-[50px] aspect-square'/>
-    </div>
+    </li>
   )
 }
 

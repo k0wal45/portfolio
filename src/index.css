@@ -74,6 +74,15 @@ body, html {
 	position: relative;
 }
 
+
+.rounded-buble {
+	animation: buble 15s ease-in-out infinite;
+}
+
+.png-shadow {
+	filter: drop-shadow(5px 5px 5px #bbb);
+}
+
 @keyframes buble {
   0% {
     border-radius: 30% 60% 40% 80%/40% 70% 50%;
@@ -94,3 +103,4 @@ body, html {
     border-radius: 30% 60% 40% 80%/40% 70% 50%;
   }
 }
+
