@@ -11,7 +11,7 @@ const AText = ({title, header, text}) => {
         {header}
       </h3>
 
-      <p className="text-lg font-montserrat text-neutral">
+      <p className="text-lg font-montserrat text-neutral text-justify">
         {text}
       </p>
     </div>
