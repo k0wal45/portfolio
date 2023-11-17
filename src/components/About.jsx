@@ -31,7 +31,7 @@ const About = () => {
       <AText 
         title='About Me'
         header='From Intership in Kyndryl to Front-End Developer'
-        text={`Hi, I'm a ${yearsPassedSince()}-year-old front-end developer who delved into web development during a 2021 internship at KYNDRYL. Inspired, I took courses on Udemy, unleashing my passion for coding. Currently pursuing a diploma, I'll graduate in 2024. Proficient in vanilla HTML, CSS, Tailwind CSS, and JavaScript, I've also dived into React, Redux, and Redux Toolkit. I've crafted websites for commercial and non-profit projects, including a car rental site and "Bezpieczni w Teorii," an educational initiative on cybersecurity. Constantly evolving, I'm dedicated to refining my coding skills and exploring new horizons. Let's create something awesome together!`}
+        text={`Hi, I'm a ${yearsPassedSince()}-year-old front-end developer who delved into web development during a 2021 internship at KYNDRYL. Inspired, I took courses on Udemy, unleashing my passion for coding. Proficient in vanilla HTML, CSS, Tailwind CSS, and JavaScript, I've also dived into React, Redux, and Redux Toolkit. I've crafted websites for commercial and non-profit projects, including a car rental site and "Bezpieczni w Teorii," an educational initiative on cybersecurity. Constantly evolving, I'm dedicated to refining my coding skills and exploring new horizons. Let's create something awesome together!`}
       />
       
     </section>
