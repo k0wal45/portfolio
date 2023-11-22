@@ -2,7 +2,7 @@ import React from 'react'
 import AText from './subcomponents/about/AText'
 import AImg from './subcomponents/about/AImg'
 
-import photo from '../assets/img/img1.png'
+import photo from '../assets/img/img2.webp'
 
 const About = () => {
 

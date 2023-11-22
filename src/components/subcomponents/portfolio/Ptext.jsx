@@ -5,7 +5,7 @@ import React from 'react'
 
 const Ptext = ({title, text, technologies, codelink, demolink}) => {
   return (
-    <div className='max-w-md flex flex-col justify-center items-start gap-4 p-4'>
+    <div className='max-w-md flex flex-col justify-center items-start text-start gap-4 p-4'>
       <p className="text-xl font-montserrat-black">{title}</p>
       <p className="text-lg font-montserrat text-neutral">{text}</p>
       <ul className="flex justify-center items-center gap-8">
