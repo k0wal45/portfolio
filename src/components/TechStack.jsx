@@ -8,6 +8,7 @@ import javascript from '../assets/svg/javascript.svg'
 import react from '../assets/svg/react.svg'
 import redux from '../assets/svg/redux.svg'
 import tailwind from '../assets/svg/tailwind.svg'
+import nextjs from '../assets/svg/next-js.svg'
 
 const TechStack = () => {
   return (
@@ -48,6 +49,12 @@ const TechStack = () => {
             <StackItem 
               image={tailwind}
               altT='Tailwind CSS Icon'
+            />
+          </li>
+          <li>
+            <StackItem 
+              image={nextjs}
+              altT='NextJS Icon'
             />
           </li>
         </ul>
