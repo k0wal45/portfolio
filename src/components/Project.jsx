@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <div className='flex flex-col items-start justify-center gap-4 max-w-[35rem]'>
       <h2 className="font-bold text-xl font-montserrat-black text-primary bg-primary bg-opacity-30 p-4 w-min whitespace-nowrap">
-        Project
+        Project Outside Web development
       </h2>
 
       <h3 className="font-montserrat-black text-3xl">
