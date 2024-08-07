@@ -10,16 +10,16 @@ import Project from "./components/Project";
 function App() {
   return (
     <>
-      <Navbar  />
+      <Navbar />
 
-        <main className="max-w-screen flex flex-col justify-center ">
-          <Hero />
-          <About />
-          <Portfolio />
-          <Project />
-          <Company />
-          <Contact />
-        </main>
+      <main className="overflow-x-hidden flex flex-col justify-center">
+        <Hero />
+        <About />
+        <Portfolio />
+        <Project />
+        <Company />
+        <Contact />
+      </main>
 
       <Footer />
     </>
