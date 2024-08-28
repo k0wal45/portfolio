@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li className="text-xl font-montserrat-bold bg-primary text-white rounded-xl">
-            <a href={resume} download="/DanielKowalskiCV.pdf">
+            <a href={resume} download="/myfile.pdf">
               Get Resume
             </a>
           </li>
@@ -73,9 +73,7 @@ const Navbar = () => {
           </li>
 
           <li className="text-xl font-montserrat-bold bg-primary">
-            <a href={resume} download="/DanielKowalskiCV.pdf">
-              Get Resume
-            </a>
+            <a href="/DanielKowalskiCV.pdf">Get Resume</a>
           </li>
         </ul>
       </div>

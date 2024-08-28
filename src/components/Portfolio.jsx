@@ -3,6 +3,7 @@ import PortfolioItem from "./subcomponents/PortfolioItem";
 import cyrptoNight from "../assets/img/CryptoNight.png";
 import tastyCourtyard from "../assets/img/tastyCourtyard.png";
 import construction from "../assets/img/construction.webp";
+import lunarisui from "../assets/img/lunarisui.webp";
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,14 @@ const Portfolio = () => {
         Projects that showcase my comercial skills
       </h5>
       <div className="flex flex-col gap-8 justify-center items-center mt-8">
+        <PortfolioItem
+          image={lunarisui}
+          title="Lunaris UI"
+          text="Next JS and Tailwind CSS, copy and paste library with simple prebuilt components that are free to use for other developers"
+          technologies={["Next JS", "Tailwind CSS", "Framer Motion"]}
+          codelink="https://github.com/k0wal45/component-library"
+          demolink="https://ui.lunarisweb.pl/"
+        />
         <PortfolioItem
           image={tastyCourtyard}
           title="Tasty Courtyard - Resturant's Website"
