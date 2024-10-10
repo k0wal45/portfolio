@@ -1,4 +1,4 @@
-import resume from "../assets/DanielKowalskiCV.pdf";
+import resume from "../assets/DanielKowalskiResume.pdf";
 
 const Navbar = () => {
   return (
