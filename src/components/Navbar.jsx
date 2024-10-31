@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li className="text-xl font-montserrat-bold bg-primary text-white rounded-xl">
-            <a href={resume} download="/DanielKowalskiCV.pdf">
+            <a href={resume}>
               Get Resume
             </a>
           </li>
